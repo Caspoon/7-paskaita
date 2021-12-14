@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.Antraste {
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        padding: 7px 15px 10px 15px;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 10px;
+        position: relative;
+        z-index: 1;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+        .Antraste span {
+            color: #000;
+            text-align: center;
+            background: #fff;
+            padding: 0 50px;
+        }
+
+        .Antraste:before {
+    border-top: 3px solid #5b5b5b;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 3%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: -1;
+}
+        .Antraste:after {
+    border-top: 3px solid #5b5b5b;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: -1;
+}
+
+nav {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 50px auto;
+  width: 300px;
+}
+
+.menu-blokas {
+  width: 300spx;
+}
+
+/*Menu Stilius*/
+.menu-blokas h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 12px;
+  background: #6e6466;
+  border-bottom: 1px solid white;
+}
+.menu-blokas h4 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+
+.menu-blokas h4:hover {
+  background: #6e6466;
+}
+
+.menu-blokas ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  /*Animacija*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+.menu-blokas:hover ul {
+  height: 93px;
+}
+.menu-blokas ul a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #aaa;
+  display: block;
+  width: 200px;
+}
+/*li Stilius*/
+.menu-blokas li {
+  border-bottom: 1px solid #eee;
+}
+
+.menu-blokas li:hover {
+  background: black;
+}
